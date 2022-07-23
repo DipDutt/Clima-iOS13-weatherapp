@@ -61,6 +61,7 @@ extension WeatherViewController: UITextFieldDelegate {
         }
         
         searchTextField.text = ""
+        searchTextField.placeholder = "Search the city name"
         
     }
 }
